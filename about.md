@@ -13,11 +13,7 @@ We have developed a prototype model for predicting geomagnetic storms using data
 ## Model Features
 
 Our model's primary approach is to transform numerical data into images and apply deep learning techniques to identify patterns and make predictions. 
-{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files %}
-  {{ myimage.path }}
-{% endfor %}
-
+<img src = "/assets/img/dia.svg" alt="My Happy SVG"/>
 **Preliminary Results:**
 - Even as an unoptimized model, it showed a promising RSME (Root Mean Square Error) of 0.67 on validation data over a year's trend.
 

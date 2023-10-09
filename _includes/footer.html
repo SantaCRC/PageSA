@@ -16,19 +16,13 @@
         <ul class="social-media-list">
           {% if site.gitlab_username %}
           <li>
-            {% include icon-colab.html name='CNN' id='1JQ0O0u_J18TkifCmi2h8PUnuRTVXijl6?hl=es#scrollTo=8bUADICjg2qQ' %}
+            {% include icon-colab.html name='ANN' id='1JQ0O0u_J18TkifCmi2h8PUnuRTVXijl6?hl=es#scrollTo=8bUADICjg2qQ' %}
           </li>
           {% endif %}
 
-          {% if site.github_username %}
+          {% if site.gitlab_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-colab.html name='CNN' id='ow2oKtXP_ybUS_k49eYsizBxIV9xKzEw?hl=es' %}
           </li>
           {% endif %}
         </ul>
